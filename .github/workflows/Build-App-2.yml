@@ -1,4 +1,4 @@
-name: Build App w/o `pod install`
+name: Build App w/ Swift 5.3
 
 on:
   workflow_dispatch:
