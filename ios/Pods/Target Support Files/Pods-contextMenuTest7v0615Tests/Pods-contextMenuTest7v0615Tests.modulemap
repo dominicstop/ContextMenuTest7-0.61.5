@@ -1,0 +1,6 @@
+framework module Pods_contextMenuTest7v0615Tests {
+  umbrella header "Pods-contextMenuTest7v0615Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

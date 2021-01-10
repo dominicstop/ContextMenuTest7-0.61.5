@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* contextMenuTest7v0615Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* contextMenuTest7v0615Tests.m */; };
+		02F39EAF852D318E0F81BAE6 /* libPods-contextMenuTest7v0615-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E53AF0382AA17A33F23EED01 /* libPods-contextMenuTest7v0615-tvOSTests.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		23CDDA31FE2D1520195AF13C /* Pods_contextMenuTest7v0615_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CD507D17DA720661433C29B /* Pods_contextMenuTest7v0615_tvOSTests.framework */; };
-		251870A67746D7EFEDF34973 /* Pods_contextMenuTest7v0615_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8789F2592FC7B086652133E0 /* Pods_contextMenuTest7v0615_tvOS.framework */; };
+		29BD407495F1C0B63F8E16EB /* libPods-contextMenuTest7v0615Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A79C515288F8E93968BE09D2 /* libPods-contextMenuTest7v0615Tests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* contextMenuTest7v0615Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* contextMenuTest7v0615Tests.m */; };
+		7B9A5707B2EDEEC99E2B6C89 /* libPods-contextMenuTest7v0615.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1638C707F9D052558DDD8B2 /* libPods-contextMenuTest7v0615.a */; };
 		88F3179C25AA912000B37939 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F3179B25AA912000B37939 /* File.swift */; };
 		88F3179D25AA912000B37939 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F3179B25AA912000B37939 /* File.swift */; };
-		AE63012357C77DC1D2A3CFD8 /* Pods_contextMenuTest7v0615.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3B9CC6B9F43F6EF023153DF /* Pods_contextMenuTest7v0615.framework */; };
-		D13E1C8FC33BF3333A15A274 /* Pods_contextMenuTest7v0615Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F296A756A6493A98F34462C4 /* Pods_contextMenuTest7v0615Tests.framework */; };
+		A820402AA4383F01FD93735D /* libPods-contextMenuTest7v0615-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 388B0EB2E52C854009C29675 /* libPods-contextMenuTest7v0615-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,19 +59,19 @@
 		2D02E47B1E0B4A5D006451C7 /* contextMenuTest7v0615-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "contextMenuTest7v0615-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* contextMenuTest7v0615-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "contextMenuTest7v0615-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE9B84F81FE0FCA45B3A7FB /* Pods-contextMenuTest7v0615.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contextMenuTest7v0615.debug.xcconfig"; path = "Target Support Files/Pods-contextMenuTest7v0615/Pods-contextMenuTest7v0615.debug.xcconfig"; sourceTree = "<group>"; };
+		388B0EB2E52C854009C29675 /* libPods-contextMenuTest7v0615-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-contextMenuTest7v0615-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41926901A7C5EA448D24C05D /* Pods-contextMenuTest7v0615.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contextMenuTest7v0615.release.xcconfig"; path = "Target Support Files/Pods-contextMenuTest7v0615/Pods-contextMenuTest7v0615.release.xcconfig"; sourceTree = "<group>"; };
-		4CD507D17DA720661433C29B /* Pods_contextMenuTest7v0615_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_contextMenuTest7v0615_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		738EE78865506F97C7D58E83 /* Pods-contextMenuTest7v0615Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contextMenuTest7v0615Tests.debug.xcconfig"; path = "Target Support Files/Pods-contextMenuTest7v0615Tests/Pods-contextMenuTest7v0615Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8789F2592FC7B086652133E0 /* Pods_contextMenuTest7v0615_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_contextMenuTest7v0615_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F3179925AA911F00B37939 /* contextMenuTest7v0615-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "contextMenuTest7v0615-Bridging-Header.h"; sourceTree = "<group>"; };
 		88F3179A25AA911F00B37939 /* contextMenuTest7v0615-tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "contextMenuTest7v0615-tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		88F3179B25AA912000B37939 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		A4CE7EACB1FFF537838CEC78 /* Pods-contextMenuTest7v0615-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contextMenuTest7v0615-tvOS.release.xcconfig"; path = "Target Support Files/Pods-contextMenuTest7v0615-tvOS/Pods-contextMenuTest7v0615-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		A5C0C53AA70932AD1A0275A5 /* Pods-contextMenuTest7v0615Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contextMenuTest7v0615Tests.release.xcconfig"; path = "Target Support Files/Pods-contextMenuTest7v0615Tests/Pods-contextMenuTest7v0615Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A79C515288F8E93968BE09D2 /* libPods-contextMenuTest7v0615Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-contextMenuTest7v0615Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E53AF0382AA17A33F23EED01 /* libPods-contextMenuTest7v0615-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-contextMenuTest7v0615-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F296A756A6493A98F34462C4 /* Pods_contextMenuTest7v0615Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_contextMenuTest7v0615Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3B9CC6B9F43F6EF023153DF /* Pods_contextMenuTest7v0615.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_contextMenuTest7v0615.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1638C707F9D052558DDD8B2 /* libPods-contextMenuTest7v0615.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-contextMenuTest7v0615.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D13E1C8FC33BF3333A15A274 /* Pods_contextMenuTest7v0615Tests.framework in Frameworks */,
+				29BD407495F1C0B63F8E16EB /* libPods-contextMenuTest7v0615Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE63012357C77DC1D2A3CFD8 /* Pods_contextMenuTest7v0615.framework in Frameworks */,
+				7B9A5707B2EDEEC99E2B6C89 /* libPods-contextMenuTest7v0615.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				251870A67746D7EFEDF34973 /* Pods_contextMenuTest7v0615_tvOS.framework in Frameworks */,
+				A820402AA4383F01FD93735D /* libPods-contextMenuTest7v0615-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23CDDA31FE2D1520195AF13C /* Pods_contextMenuTest7v0615_tvOSTests.framework in Frameworks */,
+				02F39EAF852D318E0F81BAE6 /* libPods-contextMenuTest7v0615-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,10 +149,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				F3B9CC6B9F43F6EF023153DF /* Pods_contextMenuTest7v0615.framework */,
-				8789F2592FC7B086652133E0 /* Pods_contextMenuTest7v0615_tvOS.framework */,
-				4CD507D17DA720661433C29B /* Pods_contextMenuTest7v0615_tvOSTests.framework */,
-				F296A756A6493A98F34462C4 /* Pods_contextMenuTest7v0615Tests.framework */,
+				F1638C707F9D052558DDD8B2 /* libPods-contextMenuTest7v0615.a */,
+				388B0EB2E52C854009C29675 /* libPods-contextMenuTest7v0615-tvOS.a */,
+				E53AF0382AA17A33F23EED01 /* libPods-contextMenuTest7v0615-tvOSTests.a */,
+				A79C515288F8E93968BE09D2 /* libPods-contextMenuTest7v0615Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -237,7 +237,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				F6E500A2AC9531DE8D4BC2FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -486,68 +485,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6E500A2AC9531DE8D4BC2FE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-contextMenuTest7v0615/Pods-contextMenuTest7v0615-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
-				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
-				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
-				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
-				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
-				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTActionSheet/RCTActionSheet.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
-				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
-				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
-				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
-				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
-				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework",
-				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
-				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
-				"${BUILT_PRODUCTS_DIR}/react-native-ios-context-menu/react_native_ios_context_menu.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTActionSheet.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_ios_context_menu.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-contextMenuTest7v0615/Pods-contextMenuTest7v0615-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
