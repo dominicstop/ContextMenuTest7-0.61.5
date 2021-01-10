@@ -1,0 +1,24 @@
+name: Build App (Xcode 12.3 Default)
+
+on:
+  workflow_dispatch:
+    branches:
+      - master
+
+jobs:
+  build-project:
+      runs-on: macos-latest
+      steps: 
+        - uses: actions/checkout@v2
+        - uses: maxim-lobanov/setup-xcode@v1
+          with:
+            xcode-version: '12.3'
+        - name: Install library npm dependencies
+          run: |
+            pwd && npm install
+        - name: Install pod dependencies
+          run: |
+            pwd && cd ios && pwd && pod install
+        - name: Build app
+          run: |       
+            pwd && npm run ios
