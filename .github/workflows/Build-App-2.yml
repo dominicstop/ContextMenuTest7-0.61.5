@@ -1,4 +1,4 @@
-name: Build App w/o `pod install`
+name: Build App w/ Swift 5.3
 
 on:
   workflow_dispatch:
@@ -13,9 +13,16 @@ jobs:
         - uses: maxim-lobanov/setup-xcode@v1
           with:
             xcode-version: '11.5'
+        - uses: YOCKOW/Action-setup-swift@v1
+          with:
+            swift-version: '5.3'
         - name: Install library npm dependencies
           run: |
             pwd && npm install
+        - name: Install pod dependencies
+          run: |
+            pwd && cd ios && pwd && pod install
         - name: Build app
           run: |       
             pwd && npm run ios
+    
