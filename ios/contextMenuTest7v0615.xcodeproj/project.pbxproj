@@ -17,6 +17,8 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* contextMenuTest7v0615Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* contextMenuTest7v0615Tests.m */; };
+		88F3179C25AA912000B37939 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F3179B25AA912000B37939 /* File.swift */; };
+		88F3179D25AA912000B37939 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F3179B25AA912000B37939 /* File.swift */; };
 		ABBE6AB61814D2BC4BB4FF60 /* libPods-contextMenuTest7v0615-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDB5B80C89232448BF50882A /* libPods-contextMenuTest7v0615-tvOSTests.a */; };
 		ACE8790417232421826D00F1 /* libPods-contextMenuTest7v0615Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD4D513E7AED371E95CAF574 /* libPods-contextMenuTest7v0615Tests.a */; };
 		CD46A2A1699D07ABF91A92CA /* libPods-contextMenuTest7v0615.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E13291CA38B86D0C5CB8ABFD /* libPods-contextMenuTest7v0615.a */; };
@@ -60,6 +62,9 @@
 		41926901A7C5EA448D24C05D /* Pods-contextMenuTest7v0615.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contextMenuTest7v0615.release.xcconfig"; path = "Target Support Files/Pods-contextMenuTest7v0615/Pods-contextMenuTest7v0615.release.xcconfig"; sourceTree = "<group>"; };
 		6E8D2E8893CA09D84E5BC661 /* libPods-contextMenuTest7v0615-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-contextMenuTest7v0615-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		738EE78865506F97C7D58E83 /* Pods-contextMenuTest7v0615Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contextMenuTest7v0615Tests.debug.xcconfig"; path = "Target Support Files/Pods-contextMenuTest7v0615Tests/Pods-contextMenuTest7v0615Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		88F3179925AA911F00B37939 /* contextMenuTest7v0615-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "contextMenuTest7v0615-Bridging-Header.h"; sourceTree = "<group>"; };
+		88F3179A25AA911F00B37939 /* contextMenuTest7v0615-tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "contextMenuTest7v0615-tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		88F3179B25AA912000B37939 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		A4CE7EACB1FFF537838CEC78 /* Pods-contextMenuTest7v0615-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contextMenuTest7v0615-tvOS.release.xcconfig"; path = "Target Support Files/Pods-contextMenuTest7v0615-tvOS/Pods-contextMenuTest7v0615-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		A5C0C53AA70932AD1A0275A5 /* Pods-contextMenuTest7v0615Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-contextMenuTest7v0615Tests.release.xcconfig"; path = "Target Support Files/Pods-contextMenuTest7v0615Tests/Pods-contextMenuTest7v0615Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BDB5B80C89232448BF50882A /* libPods-contextMenuTest7v0615-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-contextMenuTest7v0615-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,6 +137,9 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				88F3179B25AA912000B37939 /* File.swift */,
+				88F3179925AA911F00B37939 /* contextMenuTest7v0615-Bridging-Header.h */,
+				88F3179A25AA911F00B37939 /* contextMenuTest7v0615-tvOS-Bridging-Header.h */,
 			);
 			name = contextMenuTest7v0615;
 			sourceTree = "<group>";
@@ -194,7 +202,6 @@
 				738EE78865506F97C7D58E83 /* Pods-contextMenuTest7v0615Tests.debug.xcconfig */,
 				A5C0C53AA70932AD1A0275A5 /* Pods-contextMenuTest7v0615Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -292,8 +299,12 @@
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1230;
+					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 1230;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
@@ -308,6 +319,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -529,6 +541,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				88F3179C25AA912000B37939 /* File.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -538,6 +551,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				88F3179D25AA912000B37939 /* File.swift in Sources */,
 				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,6 +596,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 738EE78865506F97C7D58E83 /* Pods-contextMenuTest7v0615Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -605,6 +620,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A5C0C53AA70932AD1A0275A5 /* Pods-contextMenuTest7v0615Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = contextMenuTest7v0615Tests/Info.plist;
@@ -626,9 +642,11 @@
 			baseConfigurationReference = 2DE9B84F81FE0FCA45B3A7FB /* Pods-contextMenuTest7v0615.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				INFOPLIST_FILE = contextMenuTest7v0615/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -637,6 +655,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = contextMenuTest7v0615;
+				SWIFT_OBJC_BRIDGING_HEADER = "contextMenuTest7v0615-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -646,8 +667,10 @@
 			baseConfigurationReference = 41926901A7C5EA448D24C05D /* Pods-contextMenuTest7v0615.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = contextMenuTest7v0615/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -656,6 +679,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = contextMenuTest7v0615;
+				SWIFT_OBJC_BRIDGING_HEADER = "contextMenuTest7v0615-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
@@ -667,6 +692,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -683,6 +709,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.contextMenuTest7v0615-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "contextMenuTest7v0615-tvOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -695,6 +724,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -711,6 +741,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.contextMenuTest7v0615-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "contextMenuTest7v0615-tvOS-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
 			};
@@ -720,6 +752,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2BBE557F0CFEAB7DD6A829BD /* Pods-contextMenuTest7v0615-tvOSTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -747,6 +780,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 27822ACA7279C70322D3FC86 /* Pods-contextMenuTest7v0615-tvOSTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
